@@ -41,13 +41,13 @@ function main() {
 
 
 function row(){
-    if (boxes.children[0].textContent == boxes.children[1].textContent && boxes.children[0].textContent == boxes.children[2].textContent && boxes.children[0].textContent !== "") {
+    if (boxes.children[6].textContent == boxes.children[7].textContent && boxes.children[6].textContent == boxes.children[8].textContent && boxes.children[6].textContent !== "") {
         resultFunction()
     }
     if (boxes.children[3].textContent == boxes.children[4].textContent && boxes.children[3].textContent == boxes.children[5].textContent && boxes.children[3].textContent !== "") {
         resultFunction()
     }
-    if (boxes.children[6].textContent == boxes.children[7].textContent && boxes.children[6].textContent == boxes.children[8].textContent && boxes.children[6].textContent !== "") {
+    if (boxes.children[0].textContent == boxes.children[1].textContent && boxes.children[0].textContent == boxes.children[2].textContent && boxes.children[0].textContent !== "") {
         resultFunction()
     }
 }
